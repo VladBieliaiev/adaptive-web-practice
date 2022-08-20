@@ -411,7 +411,6 @@
    align-items: center;
 }
 .stay-safe__media {
-   /* border: 1px dashed red; */
    flex: 0 1 50%;
    padding: 0 0 0 3rem;
 }
@@ -423,6 +422,7 @@
 }
 
 .media-stay-safe {   
+   /* border: 1px dashed red; */
    width: 23.3rem;
    text-align: center;
    padding: 3.5rem 0 1.7rem 0;
@@ -487,13 +487,170 @@
    }
    
 }
-/* @media (max-width: 480px){
-   .media-stay-safe__image img{
-      width: 16rem;
+@media (max-width: 480px){
+   .media-stay-safe {   
+      /* background-color: #B0B0B0; */
+      margin-right: 3rem;
    }
+
    
-} */
+}
 
 /* --------------------------STAY_SAFE----------------------- */
 
 
+/* --------------------------EXPERTS-------------------------- */
+
+.experts {
+   background-color: #FAFBFD;
+   padding: 6.4rem 0 7.25rem 0;
+   border: 1px solid red;
+}
+.experts__container {
+
+}
+
+
+.experts__statistics {
+
+}
+.statistics-expert {
+   max-width: 41.5rem;
+   margin: auto;
+   position: relative;
+}
+.statistics-expert__body {
+   background: #FFFFFF;
+   box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+   border-radius: 16px;
+   position: relative;
+   z-index: 2;
+   margin-bottom: 5rem;
+}
+.body-statistics-experts {
+   padding: 1.75rem 5rem;
+   display: flex;
+   text-align: center;
+}
+.body-statistics-experts__items {
+   flex: 1 1 auto;
+}
+.body-statistics-experts__value {
+   font-family: 'Rubik';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 2.25rem;
+   letter-spacing: 0.14em;
+   color: #EC5863;
+   padding-bottom: 5px;
+}
+.body-statistics-experts__text {
+   font-family: 'Rubik';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 0.68rem;
+   text-transform: uppercase;
+   line-height: 13px;
+   letter-spacing: 0.37em;
+   color: #000000;
+
+}
+
+
+
+.statistics-expert__decor {
+   position: absolute;
+   background: #EC5863;
+   border-radius: 30px;
+   width: 5rem;
+   height: 5rem;
+}
+.statistics-expert__decor1 {
+   width: 4rem;
+   height: 4rem;
+   border-radius: 16px;
+   bottom: -21px;
+   left:-21px;
+   transform: rotate(-30deg);
+
+}
+.statistics-expert__decor2 {
+   width: 6rem;
+   height: 6rem;
+   border-radius: 30px;
+   top: -35px;
+   left: 210px;
+   transform: rotate(105deg);
+}
+.statistics-expert__decor3 {
+   width: 8rem;
+   height: 8rem; 
+   border-radius: 30px;
+   right: -45px;
+   top:-5px;
+   transform: rotate(-30deg);
+}
+
+
+.experts__block-text {
+   max-width: 23rem;
+}
+
+.experts__body {
+   display: flex;
+   align-items: center;
+}
+
+.experts__contant{
+   flex: 0 1 50%;
+   padding: 0 1.5rem 0 0;
+}
+
+
+.experts__video{
+   padding: 0 0 30% 0;
+   position: relative;
+   flex: 0 1 50%
+
+}
+
+.experts__video iframe{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top:0;
+   left:0;
+   object-fit: cover;
+}
+
+
+
+@media (max-width: 767px) {
+   .experts__body {
+      flex-direction: column;
+      align-items: stretch;
+   }
+   .experts__video{
+      padding: 0 0 58% 0;
+   }
+   .experts__contant{
+      padding: 0;
+      margin-bottom: 4rem;
+   }
+   .body-statistics-experts {
+      padding: 1.75rem 2rem;
+   }
+
+}
+
+
+@media (max-width: 480px){
+   .body-statistics-experts{
+      flex-direction: column;
+   }
+   .body-statistics-experts__items:not(:last-child) {
+      margin-bottom: 15px;
+   }
+}
+
+/* --------------------------EXPERTS-------------------------- */
